@@ -9,9 +9,13 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet var myLabel:UILabel?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        print(myLabel!.text!)
+        print(myLabel!.text ?? "text內容為nil")
     }
 
 
