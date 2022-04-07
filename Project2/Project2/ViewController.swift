@@ -15,7 +15,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         print(myLabel!.text!)
-        print(myLabel!.text ?? "text內容為nil")
+        print(myLabel!.text ?? "text內容為nil值")
     }
 
 
