@@ -79,3 +79,21 @@ print("music:\(music)")
 for (index, item) in music.enumerated(){
     print("\(index)-\(item)")
 }
+
+
+// Cofirm -> [] == 'text'
+music.contains("Jazz") ? "Yes" : "No"
+
+// Use Dictionary Type -> Build [Int : String]()
+var namesOfIntegeres = [Int : String]()
+print("nameOfIntegers : \(namesOfIntegeres)")
+namesOfIntegeres[1] = "one"
+namesOfIntegeres[2] = "two"
+namesOfIntegeres.count
+namesOfIntegeres
+
+var airport = ["YYT" : "Toromto Pearson", "DUB" : "Dublin"]
+print("airport : \(airport)")
+print("airport.count : \(airport.count)")
+
+
