@@ -106,3 +106,7 @@ var confirmAirportValue = airport["YYT"]
 
 // type -> Optional Type
 confirmAirportValue
+
+// .updateValue(<#T##value: String##String#>, forKey: <#T##String#>) -> update Value
+// OutPut(Type) -> Optional Type
+airport.updateValue("Toromto Airport", forKey: "YYT")
