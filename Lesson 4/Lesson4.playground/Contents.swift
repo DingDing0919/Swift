@@ -93,7 +93,12 @@ namesOfIntegeres.count
 namesOfIntegeres
 
 var airport = ["YYT" : "Toromto Pearson", "DUB" : "Dublin"]
-print("airport : \(airport)")
-print("airport.count : \(airport.count)")
+print("Airport : \(airport)")
+print("Airport.Count : \(airport.count)")
+
+// insert new Airport
+airport["LHR"] = "London"
+print("Airport : \(airport)")
+print("Airport.Count\(airport.count)")
 
 
