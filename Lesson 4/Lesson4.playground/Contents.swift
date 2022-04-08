@@ -117,3 +117,5 @@ if let oldValue =  airport.updateValue("Toromto Airport", forKey: "YYT"){
 }else{
     print("Failed!!")
 }
+
+print(airport["YYT"] ?? "No this KEY!!")
