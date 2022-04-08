@@ -1,4 +1,5 @@
 import SwiftUI
+import Darwin
 
 var someInts = [Int]()
 someInts.append(1)
@@ -51,4 +52,30 @@ for item in newArrayList{
 // -> tuple
 for (index, item) in newArrayList.enumerated(){
     print("\(index). \(item)")
+}
+
+// Use Set<char
+var letters = Set<Character>()
+print("letters:\(letters)")
+
+// letters.count
+letters.count
+
+// Add(insert) New Element
+// 只能放單字元, 且不能重複
+letters.insert("a")
+letters.count
+
+// letters.Set<Character>() -> Clean
+letters = []
+print("letters Clean -> \(letters)")
+letters.count
+
+// Use -> [] to Build Set
+var music:Set = ["Jazz", "Hit PoP", "Rock"]
+print("music:\(music)")
+
+// Confirm Content Value
+for (index, item) in music.enumerated(){
+    print("\(index)-\(item)")
 }
