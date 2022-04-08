@@ -109,4 +109,11 @@ confirmAirportValue
 
 // .updateValue(<#T##value: String##String#>, forKey: <#T##String#>) -> update Value
 // OutPut(Type) -> Optional Type
-airport.updateValue("Toromto Airport", forKey: "YYT")
+// airport.updateValue() -> OutPut is oldValue
+// Use Optional Binding to Confirm
+// Confirm whether the update is Successful / Failed?
+if let oldValue =  airport.updateValue("Toromto Airport", forKey: "YYT"){
+    print("Successful!! Old Value : \(oldValue)")
+}else{
+    print("Failed!!")
+}
