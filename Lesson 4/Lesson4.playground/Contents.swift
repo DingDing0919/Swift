@@ -101,4 +101,8 @@ airport["LHR"] = "London"
 print("Airport : \(airport)")
 print("Airport.Count\(airport.count)")
 
+// This Value is Optional Type
+var confirmAirportValue = airport["YYT"]
 
+// type -> Optional Type
+confirmAirportValue
