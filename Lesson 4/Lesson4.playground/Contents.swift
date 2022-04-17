@@ -119,3 +119,7 @@ if let oldValue =  airport.updateValue("Toromto Airport", forKey: "YYT"){
 }
 
 print(airport["YYT"] ?? "No this KEY!!")
+
+for (key, value) in airport{
+    print("\(key) - \(value)")
+}
